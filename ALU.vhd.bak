@@ -14,8 +14,8 @@ port(
  alu_result: out std_logic_vector(15 downto 0); -- ALU Output Result
  mult_high: out std_logic_vector(15 downto 0); -- multipication Output high
  mult_low: out std_logic_vector(15 downto 0); -- multipication Output low
- zero: out std_logic; -- Zero Flag
- z_flag, n_flag : out std_logic
+ zero: out std_logic -- Zero Flag
+ z_flag, n_flag : out std_logic;
  );
 end ALU_VHDL;
 
