@@ -21,10 +21,15 @@ end ALU_VHDL;
 
 architecture Behavioral of ALU_VHDL is
 signal result: std_logic_vector(15 downto 0);
+signal M : signed((2*nr_of_bits) downto 0) := (others => '0');
+signal S : signed((2*nr_of_bits) downto 0) := (others => '0');
+signal P : signed((2*nr_of_bits) downto 0) := (others => '0');
+signal index : natural := 0;
 begin
 process(clk,aluop,a,b)
+variable P_temp : signed(P'range);
 begin
-if(clk = '1') then
+if rising_edge(clk) then
  case aluop is
  when "000" =>
   result <= a + b; -- add
@@ -36,7 +41,7 @@ if(clk = '1') then
   result <= a or b; -- or
  when "100" =>
   result <= std_logic_vector(shift_left(unsigned(a), to_integer(unsigned(b)))); 
- when "101" =>
+ when "101" => --compare
   if (a - b = 0) then
    z_flag <= '1';
   end if;
@@ -47,10 +52,27 @@ if(clk = '1') then
    z_flag <= '0';
    n_flag <= '0'; 
   end if;
+  when "110" => --multiply
+   if index = 0 then
+     M((2*nr_of_bits) downto nr_of_bits+1) <= to_signed(to_integer(unsigned(a)), nr_of_bits);
+     S((2*nr_of_bits) downto nr_of_bits+1) <= to_signed(-to_integer(unsigned(a)), nr_of_bits);
+     P(nr_of_bits downto 1) <= to_signed(to_integer(unsigned(b)), nr_of_bits);
+    elsif index < (nr_of_bits+1) then
+     P_temp := P;
+    if P(1 downto 0) = "01" then
+     P_temp := P + M;
+    elsif P(1 downto 0) = "10" then
+     P_temp := P + S;
+    end if;
+     P <= shift_right(P_temp, 1);
+   end if;
+   index <= index + 1;
  when others => result <= a + b; -- add
  end case;
 end if;
 end process;
   zero <= '1' when result=x"0000" else '0';
   alu_result <= result;
+  mult_high <= std_logic_vector(P((2*nr_of_bits) downto nr_of_bits+1));
+  mult_low <= std_logic_vector(P(nr_of_bits downto 1));
 end Behavioral;

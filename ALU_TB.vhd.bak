@@ -23,6 +23,7 @@ port(
 );
 end component;
  signal a, b: std_logic_Vector(15 downto 0) := (others => '0');
+ signal aluop: std_logic_Vector(2 downto 0) := (others => '0');
  signal clk, z_flag, n_flag, zero : std_logic := '0';
  signal alu_result, mult_high, mult_low : std_logic_vector(15 downto 0) := (others => '0');
 begin

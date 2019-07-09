@@ -1,4 +1,18 @@
-{D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd}
+{D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ALU_TB
+-- Compiling architecture TB of ALU_TB
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd} {0 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd(2): (vcom-1491) Empty source files.
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -7,10 +21,13 @@ Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling entity MemoryTB
 -- Compiling architecture TB of MemoryTB
 
-} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd} {0 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd}
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
-** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd(2): (vcom-1491) Empty source files.
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity control_unit_VHDL
+-- Compiling architecture Behavioral of control_unit_VHDL
 
 } {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
@@ -21,14 +38,6 @@ Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling entity register_file_VHDL
 -- Compiling architecture Behavioral of register_file_VHDL
 
-} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd}
-Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity control_unit_VHDL
--- Compiling architecture Behavioral of control_unit_VHDL
-
 } {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
@@ -38,6 +47,11 @@ Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling entity Memory_VHDL
 -- Compiling architecture Behavioral of Memory_VHDL
 
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd} {0 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd(2): (vcom-1491) Empty source files.
+
 } {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
@@ -46,10 +60,5 @@ Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package NUMERIC_STD
 -- Compiling entity Register_FileTB
 -- Compiling architecture TB of Register_FileTB
-
-} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd} {0 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd}
-Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
--- Loading package STANDARD
-** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd(2): (vcom-1491) Empty source files.
 
 } {} {}}
