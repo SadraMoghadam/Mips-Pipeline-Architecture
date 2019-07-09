@@ -1,0 +1,192 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.5/examples
+T_opt
+!s110 1562582183
+VkffDhc2BQM_ieJ8JM98o[0
+04 11 10 work memory_vhdl behavioral 1
+=1-a0d37af6c75f-5d231ca3-250-1450
+Z1 o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.5;63
+R0
+T_opt1
+!s110 1562583563
+VS?Xn2EUKf;V@zXS^4SLPf2
+04 8 2 work memorytb tb 1
+=1-a0d37af6c75f-5d23220a-1ee-a6b0
+R1
+R2
+n@_opt1
+R3
+R0
+Econtrol_unit_vhdl
+Z4 w1562573412
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 dD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture
+Z8 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd
+Z9 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd
+l0
+L4
+V;FKB^c_I9fiE0QjZIZ;751
+!s100 C722D@L_jFIc0d7?kk1?@2
+Z10 OL;C;10.5;63
+32
+Z11 !s110 1562578568
+!i10b 1
+Z12 !s108 1562578568.000000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd|
+Z14 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd|
+!i113 0
+Z15 o-work work -2002 -explicit
+Z16 tExplicit 1 CvgOpt 0
+Abehavioral
+R5
+R6
+DEx4 work 17 control_unit_vhdl 0 22 ;FKB^c_I9fiE0QjZIZ;751
+l15
+L13
+VczOXPGUZE^U[U4GbNDS>T1
+!s100 <on8k@W50JznU82KQk^@f3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 0
+R15
+R16
+Ememory_vhdl
+Z17 w1562596232
+Z18 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R5
+R6
+R7
+Z19 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd
+Z20 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd
+l0
+L5
+VB7JIP4>G`32ZW9l;aKNJV2
+!s100 YOL<`A_@oa@KB6FYWkg]Z0
+R10
+32
+Z21 !s110 1562596239
+!i10b 1
+Z22 !s108 1562596239.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd|
+Z24 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R18
+R5
+R6
+DEx4 work 11 memory_vhdl 0 22 B7JIP4>G`32ZW9l;aKNJV2
+l99
+L18
+VZ?57H3amm3O^0TjKAYk0Y0
+!s100 J<9KkJo34OdDJd7LaQ1I=1
+R10
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 0
+R15
+R16
+Ememorytb
+Z25 w1562596292
+R18
+R5
+R6
+R7
+Z26 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd
+Z27 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd
+l0
+L5
+VL^K;5X`N87j?[I2nCZnG[2
+!s100 8bEdDR@BBRE8H]ETV3S]S3
+R10
+32
+Z28 !s110 1562596833
+!i10b 1
+Z29 !s108 1562596833.000000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd|
+Z31 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd|
+!i113 0
+R15
+R16
+Atb
+R18
+R5
+R6
+DEx4 work 8 memorytb 0 22 L^K;5X`N87j?[I2nCZnG[2
+l25
+L8
+VBf5GAdzF?1mQQ2;4Ym1;V1
+!s100 R2^3DjbU[1I3OZ?hVCUIg1
+R10
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 0
+R15
+R16
+Eregister_file_vhdl
+Z32 w1562597203
+R18
+R5
+R6
+R7
+Z33 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd
+Z34 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd
+l0
+L5
+VM?NJ?f]bMWEel0@>1H16C2
+!s100 ;zcMSL95ZOf3PdgecOSJf0
+R10
+32
+Z35 !s110 1562597214
+!i10b 1
+Z36 !s108 1562597214.000000
+Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd|
+Z38 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd|
+!i113 0
+R15
+R16
+Abehavioral
+R18
+R5
+R6
+DEx4 work 18 register_file_vhdl 0 22 M?NJ?f]bMWEel0@>1H16C2
+l21
+L18
+VhfGY0b7oFb;E^SIgoA]ZV1
+!s100 M[I`1k8LF9bDnVN8j]?H`3
+R10
+32
+R35
+!i10b 1
+R36
+R37
+R38
+!i113 0
+R15
+R16

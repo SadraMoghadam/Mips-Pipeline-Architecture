@@ -1,0 +1,63 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity MemoryTB is
+end MemoryTB;
+
+architecture TB of MemoryTB is
+
+component f
+port(
+ clk: in std_logic;
+ mem_write_data: in std_logic_Vector(15 downto 0);
+ memRead: in  std_logic;
+ memWrite: in  std_logic;
+ lwsi: in  std_logic;
+ state_of_memory: in  std_logic;
+ address: in std_logic_vector(15 downto 0);
+ instruction: out  std_logic_vector(15 downto 0)
+);
+end component;
+ signal mem_write_data, address: std_logic_Vector(15 downto 0) := (others => '0');
+ signal memRead, clk, memWrite, lwsi, state_of_memory : std_logic := '0';
+ signal instruction : std_logic_vector(15 downto 0) := (others => '0');
+begin
+ uut: f PORT MAP (
+  mem_write_data => mem_write_data,
+  address => address,
+  memRead => memRead,
+  clk => clk,
+  memWrite => memWrite,
+  state_of_memory => state_of_memory,
+  instruction => instruction,
+  lwsi => lwsi
+ );
+
+stim_proc: process
+ begin
+  wait for 20 ns;
+ 
+   mem_write_data <= "0101010011110010";
+   address <= "0000000000000001";
+   lwsi <= '0';
+   clk <= '1';
+   state_of_memory <= '1';
+   memWrite <= '0';
+   memRead <= '1';
+
+  wait for 20 ns;
+
+   mem_write_data <= "0101010011110010";
+   address <= "0000000000000001";
+   lwsi <= '0';
+   clk <= '1';
+   state_of_memory <= '1';
+   memWrite <= '1';
+   memRead <= '0';
+
+  wait;
+
+ end process;
+
+end architecture;
