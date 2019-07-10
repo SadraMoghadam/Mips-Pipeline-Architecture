@@ -18,7 +18,7 @@ Architecture behavior of reg1 is
  begin
   process(clk)
   begin
-   if( clk'event and clk = '1') then
+   if( clk'event and clk = '1' and if_write = '1') then
     instr_out <= instruction_reg;
     mem_data_reg <= instruction_reg;
     pc_out <= pcplus4;

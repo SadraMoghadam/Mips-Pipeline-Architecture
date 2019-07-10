@@ -18,7 +18,7 @@ Entity reg2 is
   RtE : in std_logic_vector(3 downto 0);
   RdE : in std_logic_vector(3 downto 0);
   SignExt : in std_logic_vector(15 downto 0);
-  PCPlus4 : in std_logic_vector(15 downto 0);
+  PCPlus2 : in std_logic_vector(15 downto 0);
   outS_RegWriteD : out std_logic;
   outS_MemtoRegD : out std_logic;
   outS_MemWriteD : out std_logic;
@@ -31,7 +31,7 @@ Entity reg2 is
   outRtE : out std_logic_vector(3 downto 0);
   outRdE : out std_logic_vector(3 downto 0);
   outSignExt : out std_logic_vector(15 downto 0);
-  outPCPlus4 : out std_logic_vector(15 downto 0));
+  outPCPlus2 : out std_logic_vector(15 downto 0));
 End;
 
 Architecture behave of reg2 is
@@ -51,7 +51,7 @@ Architecture behave of reg2 is
     outRtE <= RtE;
     outRdE <= RdE;
     outSignExt <= SignExt;
-    outPCPlus4 <= PCPlus4;
+    outPCPlus2 <= PCPlus2;
    end if;
   end process;
  end;

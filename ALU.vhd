@@ -15,8 +15,9 @@ port(
  mult_high: out std_logic_vector(15 downto 0); -- multipication Output high
  mult_low: out std_logic_vector(15 downto 0); -- multipication Output low
  zero: out std_logic; -- Zero Flag
- z_flag, n_flag : out std_logic
- );
+ z_flag, n_flag : out std_logic;
+ Overflow   : out std_logic;
+ CarryOut   : out std_logic);
 end ALU_VHDL;
 
 architecture Behavioral of ALU_VHDL is
@@ -70,9 +71,16 @@ if ( clk'event and clk = '1') then
  when others => result <= a + b; -- add
  end case;
 end if;
+if result(15) = '1' then
+ CarryOut <= '1';
+else
+ CarryOut <= '0';
+end if;
 end process;
   zero <= '1' when result=x"0000" else '0';
-  alu_result <= result;
+  alu_result <= result(15 downto 0);
   mult_high <= std_logic_vector(P((2*nr_of_bits) downto nr_of_bits+1));
   mult_low <= std_logic_vector(P(nr_of_bits downto 1));
+  Overflow <= '1' when (aluop="000" AND a(15)=b(15) AND result(15)/=a(15)) or
+                            (aluop="001" AND a(15)/=b(15) AND result(15)/=a(15)) else '0';
 end Behavioral;

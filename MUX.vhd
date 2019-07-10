@@ -3,12 +3,12 @@ use ieee.std_logic_1164.all;
 
 Entity mux is
  Port (
-  data0, data1 : in std_logic_vector(15 downto 0);
+  a, b : in std_logic_vector(15 downto 0);
   S : in std_logic;
   Y : out std_logic_vector(15 downto 0));
  End;
 
 Architecture behavior of mux is
   begin
-   y <= data0 when S = '0' else data1;
+   y <= a when S = '0' else b;
   end;

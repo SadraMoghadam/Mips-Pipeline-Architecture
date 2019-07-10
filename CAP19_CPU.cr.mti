@@ -1,4 +1,12 @@
-{D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd}
+{D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MEM_WB_Register.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MEM_WB_Register.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regaux4
+-- Compiling architecture behave of regaux4
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -52,14 +60,14 @@ Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling entity signextension
 -- Compiling architecture behavior of signextension
 
-} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd}
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller_TB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller_TB.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity Register_FileTB
--- Compiling architecture TB of Register_FileTB
+-- Compiling entity Controller_TB
+-- Compiling architecture TB of Controller_TB
 
 } {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
@@ -68,6 +76,15 @@ Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package std_logic_1164
 -- Compiling entity reg2
 -- Compiling architecture behave of reg2
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Register_FileTB
+-- Compiling architecture TB of Register_FileTB
 
 } {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/PC.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/PC.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
@@ -85,21 +102,22 @@ Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling entity control_unit_VHDL
 -- Compiling architecture Behavioral of control_unit_VHDL
 
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_TB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_TB.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Controller_TB
+-- Compiling architecture TB of Controller_TB
+
 } {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sll2.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sll2.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Compiling entity sll2
--- Compiling architecture behavior of sll2
-
-} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd}
-Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity reg1
--- Compiling architecture behavior of reg1
+-- Compiling entity sll1
+-- Compiling architecture behavior of sll1
 
 } {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
@@ -110,7 +128,92 @@ Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling entity ALU_TB
 -- Compiling architecture TB of ALU_TB
 
-} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd}
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg1
+-- Compiling architecture behavior of reg1
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd} {0 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Compiling entity datapath
+-- Compiling architecture behaviour of datapath
+** Error: (vcom-11) Could not find work.alu.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(41): (vcom-1195) Cannot find expanded name "work.alu".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(41): (vcom-1105) Name (expanded name) does not denote an entity name.
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(41): Unknown expanded name.
+** Error: (vcom-11) Could not find work.rf.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(54): (vcom-1195) Cannot find expanded name "work.rf".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(54): (vcom-1105) Name (expanded name) does not denote an entity name.
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(54): Unknown expanded name.
+-- Loading package STD_LOGIC_UNSIGNED
+-- Loading entity adder
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(61): (vcom-1131) Port "A" is declared on component "adder" but not on entity "adder".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(61): (vcom-1131) Port "B" is declared on component "adder" but not on entity "adder".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(61): (vcom-1131) Port "Y" is declared on component "adder" but not on entity "adder".
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(61): (vcom-1130) Port "mem_read" of entity "adder" is not in the component being instantiated.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(61): (vcom-1130) Port "rs" of entity "adder" is not in the component being instantiated.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(61): (vcom-1130) Port "rd" of entity "adder" is not in the component being instantiated.
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(62): (vcom-1131) Port "A" is declared on component "adder" but not on entity "adder".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(62): (vcom-1131) Port "B" is declared on component "adder" but not on entity "adder".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(62): (vcom-1131) Port "Y" is declared on component "adder" but not on entity "adder".
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(62): (vcom-1130) Port "mem_read" of entity "adder" is not in the component being instantiated.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(62): (vcom-1130) Port "rs" of entity "adder" is not in the component being instantiated.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(62): (vcom-1130) Port "rd" of entity "adder" is not in the component being instantiated.
+-- Loading entity signextension
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(69): (vcom-1272) Length of A is 8; length of component port is 16.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(69): (vcom-1272) Length of Y is 16; length of component port is 32.
+** Error: (vcom-11) Could not find work.sl2.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(76): (vcom-1195) Cannot find expanded name "work.sl2".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(76): (vcom-1105) Name (expanded name) does not denote an entity name.
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(76): Unknown expanded name.
+-- Loading entity mux
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(85): (vcom-1131) Port "D0" is declared on component "mux" but not on entity "mux".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(85): (vcom-1131) Port "D1" is declared on component "mux" but not on entity "mux".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(85): (vcom-1131) Port "S" is declared on component "mux" but not on entity "mux".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(85): (vcom-1131) Port "Y" is declared on component "mux" but not on entity "mux".
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(85): (vcom-1130) Port "pc" of entity "mux" is not in the component being instantiated.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(85): (vcom-1130) Port "pc_write" of entity "mux" is not in the component being instantiated.
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(86): (vcom-1131) Port "D0" is declared on component "mux" but not on entity "mux".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(86): (vcom-1131) Port "D1" is declared on component "mux" but not on entity "mux".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(86): (vcom-1131) Port "S" is declared on component "mux" but not on entity "mux".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(86): (vcom-1131) Port "Y" is declared on component "mux" but not on entity "mux".
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(86): (vcom-1130) Port "pc" of entity "mux" is not in the component being instantiated.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(86): (vcom-1130) Port "pc_write" of entity "mux" is not in the component being instantiated.
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(87): (vcom-1131) Port "D0" is declared on component "mux" but not on entity "mux".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(87): (vcom-1131) Port "D1" is declared on component "mux" but not on entity "mux".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(87): (vcom-1131) Port "S" is declared on component "mux" but not on entity "mux".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(87): (vcom-1131) Port "Y" is declared on component "mux" but not on entity "mux".
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(87): (vcom-1130) Port "pc" of entity "mux" is not in the component being instantiated.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(87): (vcom-1130) Port "pc_write" of entity "mux" is not in the component being instantiated.
+** Error: (vcom-11) Could not find work.regaux1.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(98): (vcom-1195) Cannot find expanded name "work.regaux1".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(98): (vcom-1105) Name (expanded name) does not denote an entity name.
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(98): Unknown expanded name.
+** Error: (vcom-11) Could not find work.regaux2.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(131): (vcom-1195) Cannot find expanded name "work.regaux2".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(131): (vcom-1105) Name (expanded name) does not denote an entity name.
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(131): Unknown expanded name.
+-- Loading entity regaux3
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(156): (vcom-1272) Length of WriteRegM is 4; length of component port is 5.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(156): (vcom-1272) Length of outWriteRegM is 4; length of component port is 5.
+** Error: (vcom-11) Could not find work.regaux4.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(173): (vcom-1195) Cannot find expanded name "work.regaux4".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(173): (vcom-1105) Name (expanded name) does not denote an entity name.
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(173): Unknown expanded name.
+** Error: (vcom-11) Could not find work.genericreg.
+** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(182): (vcom-1195) Cannot find expanded name "work.genericreg".
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(182): (vcom-1105) Name (expanded name) does not denote an entity name.
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(182): Unknown expanded name.
+** Error: D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd(237): VHDL Compiler exiting
+
+} {9.0 10.0 11.0 14.0 15.0 17.0 19.0 22.0 25.0 28.0 34.0 35.0 36.0 38.0 39.0 43.0 45.0 49.0 51.0 55.0 57.0 58.0 59.0 62.0 63.0 65.0 68.0 69.0 70.0 73.0 74.0 77.0} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO

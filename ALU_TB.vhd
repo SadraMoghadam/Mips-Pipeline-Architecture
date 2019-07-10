@@ -9,7 +9,7 @@ architecture TB of ALU_TB is
 
 component f
 generic(
- nr_of_bits : positive := 32
+ nr_of_bits : positive := 16
 );
 port(
  clk : in std_logic;
@@ -51,17 +51,17 @@ stim_proc: process
 
   wait for 20 ns;
 
---   a <= "0000000000000010";
---   b <= "0000000000000001";
---   aluop <= "000";
+   a <= "0000000000000010";
+   b <= "0000000000000001";
+   aluop <= "000";
    clk <= '1';
 
   wait for 20 ns;
---
---   a <= "0000000000000010";
---   b <= "0000000000000001";
---   aluop <= "000";
-  clk <= '0';
+
+   a <= "0000000000000010";
+   b <= "0000000000000001";
+   aluop <= "000";
+   clk <= '0';
 
   wait;
 
