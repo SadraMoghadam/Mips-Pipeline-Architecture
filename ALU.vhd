@@ -26,7 +26,7 @@ signal S : signed((2*nr_of_bits) downto 0) := (others => '0');
 signal P : signed((2*nr_of_bits) downto 0) := (others => '0');
 signal index : natural := 0;
 begin
-process(clk,aluop,a,b)
+process(aluop)
 variable P_temp : signed(P'range);
 begin
 if rising_edge(clk) then

@@ -9,7 +9,7 @@ Entity reg1 is
   pcplus4 : in std_logic_vector(15 downto 0);
   clk : in std_logic;
   instr_out : out std_logic_vector(15 downto 0);
-  mem_data_reg : out std_logic_vector(15 downto 0);
+  mem_data_reg : out std_logic_vector(15 downto 0));
   pc_out : out std_logic_vector(15 downto 0));
  End entity;
 

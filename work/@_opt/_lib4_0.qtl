@@ -148,10 +148,10 @@ z2
 cModel Technology
 Z0 dC:/modeltech64_10.5/examples
 T_opt
-!s110 1562681223
-V[HmT_R<Ml3@5?;ib6V1Ad1
+!s110 1562746404
+V`jRM:=9>mcii]?VdoFAb_2
 04 6 2 work alu_tb tb 1
-=1-a0d37af6c75f-5d249f86-315-6e80
+=1-a0d37af6c75f-5d259e23-6a-9c7c
 Z1 o-quiet -auto_acc_if_foreign -work work
 Z2 tCvgOpt 0
 n@_opt
@@ -177,7 +177,7 @@ n@_opt2
 R3
 R0
 Ealu_tb
-Z4 w1562681195
+Z4 w1562746366
 Z5 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z7 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
@@ -190,9 +190,9 @@ VW<VX7;KNCQn3Gzok7?ZUS0
 !s100 [<cLbJ7=^n6nRiHQcWfmQ3
 Z11 OL;C;10.5;63
 32
-Z12 !s110 1562681208
+Z12 !s110 1562746371
 !i10b 1
-Z13 !s108 1562681208.000000
+Z13 !s108 1562746371.000000
 Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd|
 Z15 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd|
 !i113 0
@@ -205,8 +205,8 @@ R7
 DEx4 work 6 alu_tb 0 22 W<VX7;KNCQn3Gzok7?ZUS0
 l29
 L8
-VCI6GN7ADZKP8maI9[HVRH0
-!s100 faX;UaL]G@Yazk@0BUn9I0
+ViT9b6znLQdSoVG^HzA:;K0
+!s100 L?<1GR]9XR6LSP2Gd=cz02
 R11
 32
 R12
@@ -218,7 +218,7 @@ R15
 R16
 R17
 Ealu_vhdl
-Z18 w1562660135
+Z18 w1562682225
 R5
 Z19 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z20 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
@@ -233,9 +233,9 @@ Vik9FYDPIcml=jYkl<97E@2
 !s100 DHVDHJikh1gXbXEWabI853
 R11
 32
-Z23 !s110 1562660143
+Z23 !s110 1562682230
 !i10b 1
-Z24 !s108 1562660143.000000
+Z24 !s108 1562682230.000000
 Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU.vhd|
 Z26 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU.vhd|
 !i113 0
@@ -248,10 +248,10 @@ R20
 R6
 R7
 DEx4 work 8 alu_vhdl 0 22 ik9FYDPIcml=jYkl<97E@2
-l24
+l28
 L22
-VjCBfQmLSB:4U[Go2T<NfN3
-!s100 1;6DSAHA9UJ2WAFCE5a:72
+Vdg?aUAJko_FU;]M>ES7]O1
+!s100 NOA><Z3E^gFZ=c5MbhLZF2
 R11
 32
 R23
@@ -465,3 +465,4 @@ R57
 !i113 0
 R16
 R17
+ 
