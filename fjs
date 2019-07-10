@@ -1,0 +1,37 @@
+[33mcommit 06e3d2caff6c931527139c017fe9a6d20616d2e9[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Sadra Moghadam <sadra_h_m@outlook.com>
+Date:   Wed Jul 10 13:30:12 2019 +0430
+
+    completed adder, mux, reg1 and reg2
+
+[33mcommit 7e65eeb5971b76f8425ae21b31607cc74a7496e4[m
+Author: Sadra Moghadam <sadra_h_m@outlook.com>
+Date:   Tue Jul 9 18:56:45 2019 +0430
+
+    ALU completed with multiply
+
+[33mcommit 9a958f5e09a823255de742a4144e1f6e74b75a83[m
+Author: Sadra Moghadam <sadra_h_m@outlook.com>
+Date:   Tue Jul 9 12:48:13 2019 +0430
+
+    alu added without multiply
+
+[33mcommit 377760dc1da54f0fb72018cdf53d851d68c19fc5[m
+Author: Sadra Moghadam <sadra_h_m@outlook.com>
+Date:   Tue Jul 9 11:07:06 2019 +0430
+
+    memory and register completed
+
+[33mcommit b9314044277acea2f5b3c8f758f4c858b22a4b73[m
+Author: SadraMoghadam <42905039+SadraMoghadam@users.noreply.github.com>
+Date:   Thu Jun 27 22:15:20 2019 +0430
+
+    main question
+    
+    it is most of the information of the CAP19 CPU
+
+[33mcommit 0bddfb74877bb68a2e5644dcf3c234920aab21af[m
+Author: SadraMoghadam <42905039+SadraMoghadam@users.noreply.github.com>
+Date:   Thu Jun 27 19:01:28 2019 +0430
+
+    Initial commit

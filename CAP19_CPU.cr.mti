@@ -1,16 +1,29 @@
-{D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd}
+{D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity ALU_TB
--- Compiling architecture TB of ALU_TB
+-- Compiling entity register_file_VHDL
+-- Compiling architecture Behavioral of register_file_VHDL
 
-} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd} {0 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd}
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_MEM_Register.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_MEM_Register.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
-** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd(2): (vcom-1491) Empty source files.
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regaux3
+-- Compiling architecture behave of regaux3
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_unit.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_unit.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity adder
+-- Compiling architecture behave of adder
 
 } {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
@@ -21,6 +34,49 @@ Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling entity MemoryTB
 -- Compiling architecture TB of MemoryTB
 
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Adder.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Adder.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity adder
+-- Compiling architecture behave of adder
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sign_extend.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sign_extend.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity signextension
+-- Compiling architecture behavior of signextension
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Register_FileTB
+-- Compiling architecture TB of Register_FileTB
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg2
+-- Compiling architecture behave of reg2
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/PC.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/PC.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity mux
+-- Compiling architecture behavior of mux
+
 } {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
@@ -29,14 +85,30 @@ Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling entity control_unit_VHDL
 -- Compiling architecture Behavioral of control_unit_VHDL
 
-} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd}
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sll2.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sll2.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity sll2
+-- Compiling architecture behavior of sll2
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg1
+-- Compiling architecture behavior of reg1
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Loading package NUMERIC_STD
--- Compiling entity register_file_VHDL
--- Compiling architecture Behavioral of register_file_VHDL
+-- Compiling entity ALU_TB
+-- Compiling architecture TB of ALU_TB
 
 } {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
@@ -47,18 +119,23 @@ Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Compiling entity Memory_VHDL
 -- Compiling architecture Behavioral of Memory_VHDL
 
-} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd} {0 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd}
-Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
--- Loading package STANDARD
-** Error (suppressible): D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd(2): (vcom-1491) Empty source files.
-
-} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd}
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MUX.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MUX.vhd}
 Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
+-- Compiling entity mux
+-- Compiling architecture behavior of mux
+
+} {} {}} {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU.vhd} {1 {vcom -work work -2002 -explicit -vopt -stats=none {D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU.vhd}
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
 -- Loading package NUMERIC_STD
--- Compiling entity Register_FileTB
--- Compiling architecture TB of Register_FileTB
+-- Compiling entity ALU_VHDL
+-- Compiling architecture Behavioral of ALU_VHDL
 
 } {} {}}

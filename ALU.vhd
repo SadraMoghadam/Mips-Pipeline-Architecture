@@ -5,7 +5,7 @@ use ieee.numeric_std.all;
 -- VHDL code for ALU of the MIPS Processor
 entity ALU_VHDL is
 generic(
- nr_of_bits : positive := 32
+ nr_of_bits : positive := 16
 );
 port(
  clk : in std_logic;
@@ -26,10 +26,10 @@ signal S : signed((2*nr_of_bits) downto 0) := (others => '0');
 signal P : signed((2*nr_of_bits) downto 0) := (others => '0');
 signal index : natural := 0;
 begin
-process(aluop)
+process(clk, aluop)
 variable P_temp : signed(P'range);
 begin
-if rising_edge(clk) then
+if ( clk'event and clk = '1') then
  case aluop is
  when "000" =>
   result <= a + b; -- add

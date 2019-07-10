@@ -8,8 +8,9 @@ Entity reg1 is
   instruction_reg : in std_logic_vector(15 downto 0);
   pcplus4 : in std_logic_vector(15 downto 0);
   clk : in std_logic;
+  if_write : in std_logic;
   instr_out : out std_logic_vector(15 downto 0);
-  mem_data_reg : out std_logic_vector(15 downto 0));
+  mem_data_reg : out std_logic_vector(15 downto 0);
   pc_out : out std_logic_vector(15 downto 0));
  End entity;
 
