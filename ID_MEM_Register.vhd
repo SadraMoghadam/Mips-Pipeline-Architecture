@@ -3,7 +3,7 @@ use ieee.std_logic_1164.all;
 
 -- Auxiliar register 3 - EX stage to MEM stage
 
-Entity regaux3 is
+Entity reg3 is
  Port (
   clk : in std_logic;
   S_RegWriteM : in std_logic;
@@ -26,7 +26,7 @@ Entity regaux3 is
   outPcBranchM : out std_logic_vector(15 downto 0));
  End;
 
-Architecture behave of regaux3 is
+Architecture behavior of reg3 is
 begin
  process(clk)
  begin

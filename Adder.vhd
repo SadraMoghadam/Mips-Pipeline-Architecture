@@ -8,7 +8,7 @@ Entity adder is
   Y    : out std_logic_vector(15 downto 0));
  End;
 
-Architecture behave of adder is
+Architecture behavior of adder is
  begin
   Y <= A + B;
  end;

@@ -39,28 +39,48 @@ n@_opt2
 R3
 R0
 Eadder
-Z4 w1562757597
+Z4 w1562830553
 Z5 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
 Z6 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z9 dD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture
-Z10 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_unit.vhd
-Z11 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_unit.vhd
+Z10 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Adder.vhd
+Z11 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Adder.vhd
 l0
 L5
-V_CiddCDRmD=eB?;WWaEUD2
-!s100 g^7cmlLfMiFW0;Jl1J?CK2
+VQP@jiK0o`dYD5fmhf@z0^2
+!s100 8515FSTT1Qj50=[[IUgBm1
 Z12 OL;C;10.5;63
 32
-Z13 !s110 1562793534
+Z13 !s110 1562832010
 !i10b 1
-Z14 !s108 1562793533.000000
-Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_unit.vhd|
-Z16 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_unit.vhd|
+Z14 !s108 1562832010.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Adder.vhd|
+Z16 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Adder.vhd|
 !i113 0
 Z17 o-work work -2002 -explicit
 Z18 tExplicit 1 CvgOpt 0
+Abehavior
+R5
+R6
+R7
+R8
+DEx4 work 5 adder 0 22 QP@jiK0o`dYD5fmhf@z0^2
+l12
+L11
+VUg5>Wo>iQ__P4NO;IKN0U3
+!s100 mmOd=OG@Yo4:?idYSa5DO0
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 0
+R17
+R18
 Abehave
 R5
 R6
@@ -73,38 +93,41 @@ V^3m[_>_f]iiWDU9VB2W];3
 !s100 Val3ANHP:?KG<@2]]JCBH2
 R12
 32
-R13
+Z19 !s110 1562793534
 !i10b 1
-R14
-R15
-R16
+!s108 1562793533.000000
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_unit.vhd|
+Z21 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_unit.vhd|
 !i113 0
 R17
 R18
+Z22 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_unit.vhd
+w1562757597
+Z23 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_unit.vhd
 Ealu_tb
-Z19 w1562798672
-Z20 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z24 w1562798272
+Z25 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 R7
 R8
 R9
-Z21 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller_TB.vhd
-Z22 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller_TB.vhd
+Z26 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd
+Z27 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd
 l0
 L5
 VW<VX7;KNCQn3Gzok7?ZUS0
 !s100 [<cLbJ7=^n6nRiHQcWfmQ3
 R12
 32
-!s110 1562798678
+R13
 !i10b 1
-!s108 1562798678.000000
-Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller_TB.vhd|
-!s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller_TB.vhd|
+R14
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd|
+Z29 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd|
 !i113 0
 R17
 R18
 Atb
-R20
+R25
 R7
 R8
 DEx4 work 6 alu_tb 0 22 W<VX7;KNCQn3Gzok7?ZUS0
@@ -114,44 +137,42 @@ V9kb``W@9jTdaPSj3U94b32
 !s100 F`MJbSaneElO^z3>8_mK72
 R12
 32
-!s110 1562798277
+R13
 !i10b 1
-!s108 1562798277.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd|
-!s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd|
+R14
+R28
+R29
 !i113 0
 R17
 R18
-FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd
-8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU_TB.vhd
 Ealu_vhdl
-Z24 w1562796304
-R20
+Z30 w1562796304
+R25
 R5
-Z25 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+Z31 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
 R7
 R8
 R9
-Z26 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU.vhd
-Z27 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU.vhd
+Z32 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU.vhd
+Z33 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU.vhd
 l0
 L6
 V?cFbY=GF6Y?Z7zMZ^ULJL0
 !s100 YIReZF[]cCzZcF>ZHZ]bg2
 R12
 32
-Z28 !s110 1562796308
+Z34 !s110 1562832009
 !i10b 1
-Z29 !s108 1562796308.000000
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU.vhd|
-Z31 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU.vhd|
+Z35 !s108 1562832009.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU.vhd|
+Z37 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ALU.vhd|
 !i113 0
 R17
 R18
 Abehavioral
-R20
-R5
 R25
+R5
+R31
 R7
 R8
 DEx4 work 8 alu_vhdl 0 22 ?cFbY=GF6Y?Z7zMZ^ULJL0
@@ -161,32 +182,32 @@ Vh:T8k6:Lz>Xb6eeO]jCeR0
 !s100 Ql4?>A>o118oL9P_HzS?a2
 R12
 32
-R28
+R34
 !i10b 1
-R29
-R30
-R31
+R35
+R36
+R37
 !i113 0
 R17
 R18
 Econtrol_unit_vhdl
-Z32 w1562800761
+Z38 w1562800761
 R7
 R8
 R9
-Z33 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd
-Z34 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd
+Z39 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd
+Z40 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd
 l0
 L4
 V<OJ]<RP5SlhAidRDKLZ6j2
 !s100 ee`];ZK9InT5izLIYIdD50
 R12
 32
-Z35 !s110 1562800764
+Z41 !s110 1562832008
 !i10b 1
-Z36 !s108 1562800764.000000
-Z37 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd|
-Z38 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd|
+Z42 !s108 1562832008.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd|
+Z44 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller.vhd|
 !i113 0
 R17
 R18
@@ -200,108 +221,45 @@ V9HmG0ha:7eM=k]jeCAnJ50
 !s100 mdUO>7YOg^VVNDMBIV=ZE0
 R12
 32
-R35
+R41
 !i10b 1
-R36
-R37
-R38
+R42
+R43
+R44
 !i113 0
 R17
 R18
 Econtroller_tb
-Z39 w1562801153
-R20
+Z45 w1562799332
+R25
 R7
 R8
 R9
-R21
-R22
+Z46 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_TB.vhd
+Z47 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_TB.vhd
 l0
 L5
 VZ4@ZS0g]7=:cJ=>kMNbJO2
 !s100 A^k87P7?@=DMnnd<hB[WP0
 R12
 32
-Z40 !s110 1562801156
+Z48 !s110 1562832012
 !i10b 1
-Z41 !s108 1562801156.000000
-R23
-Z42 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Controller_TB.vhd|
+Z49 !s108 1562832012.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_TB.vhd|
+Z51 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Hazard_detection_TB.vhd|
 !i113 0
 R17
 R18
 Atb
-R20
+R25
 R7
 R8
-Z43 DEx4 work 13 controller_tb 0 22 Z4@ZS0g]7=:cJ=>kMNbJO2
-l21
+Z52 DEx4 work 13 controller_tb 0 22 Z4@ZS0g]7=:cJ=>kMNbJO2
+l18
 L8
-VTCMa=AHKaMSa9@;^=8_Tg0
-!s100 1o8Fefb4mKMkzWA`IGJAQ1
-R12
-32
-R40
-!i10b 1
-R41
-R23
-R42
-!i113 0
-R17
-R18
-Edatapath
-w1562791996
-R7
-R8
-R5
-R9
-8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd
-FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd
-l0
-L10
-V8;`8=7a4V3jWcO9Pb]:1K2
-!s100 ;mb14YSYY;d3I6OA_agME3
-R12
-32
-R13
-!i10b 1
-Z44 !s108 1562793534.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd|
-!s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd|
-!i113 0
-R17
-R18
-Ememory_vhdl
-Z45 w1562596232
-R20
-R7
-R8
-R9
-Z46 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd
-Z47 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd
-l0
-L5
-VB7JIP4>G`32ZW9l;aKNJV2
-!s100 YOL<`A_@oa@KB6FYWkg]Z0
-R12
-32
-Z48 !s110 1562793532
-!i10b 1
-Z49 !s108 1562793532.000000
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd|
-Z51 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd|
-!i113 0
-R17
-R18
-Abehavioral
-R20
-R7
-R8
-DEx4 work 11 memory_vhdl 0 22 B7JIP4>G`32ZW9l;aKNJV2
-l99
-L18
-VZ?57H3amm3O^0TjKAYk0Y0
-!s100 J<9KkJo34OdDJd7LaQ1I=1
+V?PcKR1a`OC9GUof3lB:j62
+!s100 KUYKLdP`2N6BN47EzkCVH2
 R12
 32
 R48
@@ -312,30 +270,178 @@ R51
 !i113 0
 R17
 R18
-Ememorytb
-Z52 w1562596292
-R20
+Edatapath
+Z53 w1562831960
+R7
+R8
+R5
+R9
+Z54 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd
+Z55 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd
+l0
+L10
+VEG:LD12Xk8^7TBUTX7Whi0
+!s100 ;H_F39EX=eCfGZFmfmTHH0
+R12
+32
+Z56 !s110 1562832011
+!i10b 1
+Z57 !s108 1562832011.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd|
+Z59 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Datapath.vhd|
+!i113 0
+R17
+R18
+Abehaviour
+R7
+R8
+R5
+DEx4 work 8 datapath 0 22 EG:LD12Xk8^7TBUTX7Whi0
+l219
+L16
+VJ@Kcnh7E^Vc88YUU;5ZJ61
+!s100 f]Co70lh=7hVglkFka^bh2
+R12
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 0
+R17
+R18
+Ehazard_detection
+Z60 w1562831292
+R5
+R6
 R7
 R8
 R9
-Z53 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd
-Z54 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd
+R23
+R22
+l0
+L5
+VWYcWzllioGN]a=KV?XoB@1
+!s100 M=O^MeSUf[96Gi8m3h;3H3
+R12
+32
+R56
+!i10b 1
+R57
+R20
+R21
+!i113 0
+R17
+R18
+Abehavior
+R5
+R6
+R7
+R8
+DEx4 work 16 hazard_detection 0 22 WYcWzllioGN]a=KV?XoB@1
+l13
+L12
+VPC8gnGOSF<`Jg3URZ;C0=2
+!s100 RKTenW^`ki?YO=]oiH<O`2
+R12
+32
+R56
+!i10b 1
+R57
+R20
+R21
+!i113 0
+R17
+R18
+Ehazard_deteection
+w1562831264
+R5
+R6
+R7
+R8
+R9
+R23
+R22
+l0
+L5
+VQOcm>Q_X<fhKSVzBg=S2_1
+!s100 1Cja5N34gVMf9hf<A2BiD1
+R12
+32
+!s110 1562831278
+!i10b 1
+!s108 1562831278.000000
+R20
+R21
+!i113 0
+R17
+R18
+Ememory_vhdl
+Z61 w1562596232
+R25
+R7
+R8
+R9
+Z62 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd
+Z63 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd
+l0
+L5
+VB7JIP4>G`32ZW9l;aKNJV2
+!s100 YOL<`A_@oa@KB6FYWkg]Z0
+R12
+32
+R34
+!i10b 1
+R42
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd|
+Z65 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Memory.vhd|
+!i113 0
+R17
+R18
+Abehavioral
+R25
+R7
+R8
+DEx4 work 11 memory_vhdl 0 22 B7JIP4>G`32ZW9l;aKNJV2
+l99
+L18
+VZ?57H3amm3O^0TjKAYk0Y0
+!s100 J<9KkJo34OdDJd7LaQ1I=1
+R12
+32
+R34
+!i10b 1
+R42
+R64
+R65
+!i113 0
+R17
+R18
+Ememorytb
+Z66 w1562596292
+R25
+R7
+R8
+R9
+Z67 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd
+Z68 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd
 l0
 L5
 VL^K;5X`N87j?[I2nCZnG[2
 !s100 8bEdDR@BBRE8H]ETV3S]S3
 R12
 32
-Z55 !s110 1562793533
+R13
 !i10b 1
-R14
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd|
-Z57 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd|
+R35
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd|
+Z70 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MemoryTB.vhd|
 !i113 0
 R17
 R18
 Atb
-R20
+R25
 R7
 R8
 DEx4 work 8 memorytb 0 22 L^K;5X`N87j?[I2nCZnG[2
@@ -345,32 +451,32 @@ VBf5GAdzF?1mQQ2;4Ym1;V1
 !s100 R2^3DjbU[1I3OZ?hVCUIg1
 R12
 32
-R55
+R13
 !i10b 1
-R14
-R56
-R57
+R35
+R69
+R70
 !i113 0
 R17
 R18
 Emux
-Z58 w1562796677
+Z71 w1562796677
 R7
 R8
 R9
-Z59 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MUX.vhd
-Z60 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MUX.vhd
+Z72 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MUX.vhd
+Z73 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MUX.vhd
 l0
 L4
 VA]BUVQ:<SEYSOa`7X9@333
 !s100 `Z`=]R>A[7mI]on;KkF;X3
 R12
 32
-Z61 !s110 1562796683
+R13
 !i10b 1
-Z62 !s108 1562796683.000000
-Z63 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MUX.vhd|
-Z64 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MUX.vhd|
+R14
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MUX.vhd|
+Z75 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MUX.vhd|
 !i113 0
 R17
 R18
@@ -384,32 +490,71 @@ V;=[92h5HK79HnF8X6=`<D3
 !s100 RI;OQ]UO9o?;XEK_m>AKM1
 R12
 32
-R61
+R13
 !i10b 1
-R62
-R63
-R64
+R14
+R74
+R75
+!i113 0
+R17
+R18
+Epc_unit
+Z76 w1562831579
+R7
+R8
+R9
+Z77 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/PC.vhd
+Z78 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/PC.vhd
+l0
+L4
+Vc;ChM>^RW7SUX_3?VFbNX0
+!s100 KQ[akBdFRigo3Vde4`?3B0
+R12
+32
+R56
+!i10b 1
+R57
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/PC.vhd|
+Z80 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/PC.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R7
+R8
+DEx4 work 7 pc_unit 0 22 c;ChM>^RW7SUX_3?VFbNX0
+l12
+L11
+VL59?<o13H2KLZjPaIJ@3o1
+!s100 MQzG0c=I>:KQ]2aJ_D=UD0
+R12
+32
+R56
+!i10b 1
+R57
+R79
+R80
 !i113 0
 R17
 R18
 Ereg1
-Z65 w1562787221
+Z81 w1562787221
 R7
 R8
 R9
-Z66 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd
-Z67 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd
+Z82 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd
+Z83 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd
 l0
 L6
 VDd@WFaiEzfCc0VCd?ekcU0
 !s100 3lZB53ahcN3l[agBBFAeM2
 R12
 32
-R48
+R34
 !i10b 1
-R49
-Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd|
-Z69 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd|
+R35
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd|
+Z85 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/IF_ID_Register.vhd|
 !i113 0
 R17
 R18
@@ -423,32 +568,32 @@ V2hbFIm@@Q[nVgN_B9SJoi2
 !s100 C:8Ca:19ANI<LVaQga5AD3
 R12
 32
-R48
+R34
 !i10b 1
-R49
-R68
-R69
+R35
+R84
+R85
 !i113 0
 R17
 R18
 Ereg2
-Z70 w1562790988
+Z86 w1562790988
 R7
 R8
 R9
-Z71 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd
-Z72 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd
+Z87 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd
+Z88 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd
 l0
 L6
 VbJF`MOV`RjIM81Tf_zGAc1
 !s100 c5FFL3`^QjLTnbXLfN:9_3
 R12
 32
-R55
+R34
 !i10b 1
-R49
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd|
-Z74 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd|
+R35
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd|
+Z90 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_EXE_Register.vhd|
 !i113 0
 R17
 R18
@@ -462,32 +607,110 @@ VO^cXo_mDP4JI`iEmVEMn41
 !s100 ]Mh0Tg]_d3Y9bALd8zBCO1
 R12
 32
-R55
+R34
 !i10b 1
-R49
-R73
-R74
+R35
+R89
+R90
+!i113 0
+R17
+R18
+Ereg3
+Z91 w1562831761
+R7
+R8
+R9
+Z92 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_MEM_Register.vhd
+Z93 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_MEM_Register.vhd
+l0
+L6
+VV7n[mc7YkGVaOejQ7KGKF2
+!s100 lWKW;SA_:og85<YoAieV^3
+R12
+32
+R56
+!i10b 1
+R57
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_MEM_Register.vhd|
+Z95 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_MEM_Register.vhd|
+!i113 0
+R17
+R18
+Abehavior
+R7
+R8
+DEx4 work 4 reg3 0 22 V7n[mc7YkGVaOejQ7KGKF2
+l30
+L29
+VgH3NmYgnQ[ceE;_VdTL^g3
+!s100 a9a[`H9`?hP]_PohUVOU13
+R12
+32
+R56
+!i10b 1
+R57
+R94
+R95
+!i113 0
+R17
+R18
+Ereg4
+Z96 w1562831790
+R7
+R8
+R9
+Z97 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MEM_WB_Register.vhd
+Z98 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MEM_WB_Register.vhd
+l0
+L6
+V<hi6Y8lnb2R1ff7zM23=23
+!s100 ]Qj=LRcQ@a>?iC_O=N0>i3
+R12
+32
+R48
+!i10b 1
+R57
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MEM_WB_Register.vhd|
+Z100 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MEM_WB_Register.vhd|
+!i113 0
+R17
+R18
+Abehave
+R7
+R8
+DEx4 work 4 reg4 0 22 <hi6Y8lnb2R1ff7zM23=23
+l30
+L29
+Vd9BGVDYV1]fHlIUXmQ;3o3
+!s100 jd<iO6a^R9>do<caRJeo52
+R12
+32
+R48
+!i10b 1
+R57
+R99
+R100
 !i113 0
 R17
 R18
 Eregaux3
-Z75 w1562760901
+Z101 w1562760901
 R7
 R8
 R9
-Z76 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_MEM_Register.vhd
-Z77 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_MEM_Register.vhd
+R92
+R93
 l0
 L6
 VITL=I:JTjgeK9Nd?>L`Rf0
 !s100 fGD9a4XMBRaMnU;:9NVZ32
 R12
 32
-R13
+R19
 !i10b 1
-R44
-Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_MEM_Register.vhd|
-Z79 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/ID_MEM_Register.vhd|
+Z102 !s108 1562793534.000000
+R94
+R95
 !i113 0
 R17
 R18
@@ -501,32 +724,32 @@ VzI^GbVmz:Y40?[WoW>3Nz1
 !s100 N2?>;:NQDW6R[B;G4]BWo0
 R12
 32
-R13
+R19
 !i10b 1
-R44
-R78
-R79
+R102
+R94
+R95
 !i113 0
 R17
 R18
 Eregaux4
-Z80 w1562797682
+Z103 w1562797682
 R7
 R8
 R9
-Z81 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MEM_WB_Register.vhd
-Z82 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MEM_WB_Register.vhd
+R97
+R98
 l0
 L6
 VM`PcnTVN>em^Q96272STO1
 !s100 cnNS0EID:9mGojNb55cd=0
 R12
 32
-Z83 !s110 1562797691
+Z104 !s110 1562797691
 !i10b 1
-Z84 !s108 1562797691.000000
-Z85 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MEM_WB_Register.vhd|
-Z86 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/MEM_WB_Register.vhd|
+Z105 !s108 1562797691.000000
+R99
+R100
 !i113 0
 R17
 R18
@@ -540,38 +763,38 @@ VELV6Z_<P<Y8;z?EPPM2ad0
 !s100 5@go`A?RcEZWm5@m;>n]@1
 R12
 32
-R83
+R104
 !i10b 1
-R84
-R85
-R86
+R105
+R99
+R100
 !i113 0
 R17
 R18
 Eregister_file_vhdl
-Z87 w1562597203
-R20
+Z106 w1562597203
+R25
 R7
 R8
 R9
-Z88 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd
-Z89 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd
+Z107 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd
+Z108 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd
 l0
 L5
 VM?NJ?f]bMWEel0@>1H16C2
 !s100 ;zcMSL95ZOf3PdgecOSJf0
 R12
 32
-R48
+R34
 !i10b 1
-R49
-Z90 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd|
-Z91 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd|
+R35
+Z109 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd|
+Z110 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_File.vhd|
 !i113 0
 R17
 R18
 Abehavioral
-R20
+R25
 R7
 R8
 DEx4 work 18 register_file_vhdl 0 22 M?NJ?f]bMWEel0@>1H16C2
@@ -581,38 +804,38 @@ VhfGY0b7oFb;E^SIgoA]ZV1
 !s100 M[I`1k8LF9bDnVN8j]?H`3
 R12
 32
-R48
+R34
 !i10b 1
-R49
-R90
-R91
+R35
+R109
+R110
 !i113 0
 R17
 R18
 Eregister_filetb
-Z92 w1562655438
-R20
+Z111 w1562655438
+R25
 R7
 R8
 R9
-Z93 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd
-Z94 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd
+Z112 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd
+Z113 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd
 l0
 L5
 VBhmz[SNMQgbO7oF63A<Ag1
 !s100 2^>]bEhFF8FIkLdoh@7P61
 R12
 32
-R55
+R13
 !i10b 1
 R14
-Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd|
-Z96 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd|
+Z114 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd|
+Z115 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/Register_FileTB.vhd|
 !i113 0
 R17
 R18
 Atb
-R20
+R25
 R7
 R8
 DEx4 work 15 register_filetb 0 22 Bhmz[SNMQgbO7oF63A<Ag1
@@ -622,57 +845,57 @@ Vo09KCiXN3=ICmn9NR=3SO1
 !s100 @l_@bKRddUMSac<e>ZL7F0
 R12
 32
-R55
+R13
 !i10b 1
 R14
-R95
-R96
+R114
+R115
 !i113 0
 R17
 R18
 Esignextension
-Z97 w1562753948
+Z116 w1562753948
 R7
 R8
 R9
-Z98 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sign_extend.vhd
-Z99 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sign_extend.vhd
+Z117 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sign_extend.vhd
+Z118 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sign_extend.vhd
 l0
 L4
 VB;RWBlJATT7_CNGX:W:F>0
 !s100 aFcZkbC_Y`EnNkPEk?n4g3
 R12
 32
-R55
+R13
 !i10b 1
 R14
-Z100 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sign_extend.vhd|
-Z101 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sign_extend.vhd|
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sign_extend.vhd|
+Z120 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sign_extend.vhd|
 !i113 0
 R17
 R18
 Abehavior
 R7
 R8
-Z102 DEx4 work 13 signextension 0 22 B;RWBlJATT7_CNGX:W:F>0
+Z121 DEx4 work 13 signextension 0 22 B;RWBlJATT7_CNGX:W:F>0
 l11
 L10
 ViZl]kKFe03__c2DaJkckc0
 !s100 z;ofgO2GK9Xl[;;kmUMRM0
 R12
 32
-R55
+R13
 !i10b 1
 R14
-R100
-R101
+R119
+R120
 !i113 0
 R17
 R18
 Abehave
 R7
 R8
-R102
+R121
 l11
 L10
 VdA`G@hSYDbcQZWHa`SYg22
@@ -682,30 +905,30 @@ R12
 !s110 1562753626
 !i10b 1
 !s108 1562753626.000000
-R100
-R101
+R119
+R120
 !i113 0
 R17
 R18
 w1562753614
 Esll1
-Z103 w1562786990
+Z122 w1562786990
 R7
 R8
 R9
-Z104 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sll2.vhd
-Z105 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sll2.vhd
+Z123 8D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sll2.vhd
+Z124 FD:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sll2.vhd
 l0
 L4
 VWfUBWn2Y32Ub>=71iU9R43
 !s100 6I8n2FL6^^DIhQkhLOY@i1
 R12
 32
-R55
+R56
 !i10b 1
-R14
-Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sll2.vhd|
-Z107 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sll2.vhd|
+R57
+Z125 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sll2.vhd|
+Z126 !s107 D:/university classes/Memaari Beitol/CAP19 Project/Mips-Pipeline-Architecture/sll2.vhd|
 !i113 0
 R17
 R18
@@ -719,11 +942,11 @@ VV[cbBSA=JO`YCeoN6jnVN3
 !s100 Ql0KgNLcD2CPW0V8gmk522
 R12
 32
-R55
+R56
 !i10b 1
-R14
-R106
-R107
+R57
+R125
+R126
 !i113 0
 R17
 R18
@@ -732,8 +955,8 @@ w1562786485
 R7
 R8
 R9
-R104
-R105
+R123
+R124
 l0
 L4
 V4RIDJ]hJSMSU>VQoTK7[[1
@@ -743,8 +966,8 @@ R12
 !s110 1562786507
 !i10b 1
 !s108 1562786506.000000
-R106
-R107
+R125
+R126
 !i113 0
 R17
 R18
@@ -761,8 +984,8 @@ R12
 !s110 1562767842
 !i10b 1
 !s108 1562767842.000000
-R106
-R107
+R125
+R126
 !i113 0
 R17
 R18

@@ -2,14 +2,14 @@ library ieee;
 use ieee.std_logic_1164.all;
 use ieee.std_logic_unsigned.all;
 
-Entity adder is
+Entity hazard_detection is
  Port (
   mem_read : in std_logic;
   rs, rd : in std_logic_vector(15 downto 0);
   if_write, pc_write : out std_logic);
  End;
 
-Architecture behave of adder is
+Architecture behavior of hazard_detection is
 begin
  process(rs, rd, mem_read)
  begin
